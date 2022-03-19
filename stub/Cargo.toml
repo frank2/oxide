@@ -1,0 +1,16 @@
+cargo-features = ["named-profiles", "strip"]
+
+[package]
+name = "stub"
+version = "0.1.0"
+authors = ["purple"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+exe = "=0.4.2"
+liboxide = { path = "../liboxide" }
+winapi = { version = "0.3.9", features = ["errhandlingapi", "libloaderapi", "memoryapi", "impl-default"] }
+
+[profile.release]
+strip = "symbols"
