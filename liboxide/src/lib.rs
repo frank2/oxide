@@ -15,7 +15,7 @@ impl OxideData {
         };
 
         if (*size as usize) < (data.len()-8) {
-            return Err(Error::BufferTooSmall);
+            return Err(Error::BufferTooSmall(data.len()-8, *size as usize));
         }
 
         Ok(Self {
