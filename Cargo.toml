@@ -8,5 +8,5 @@ edition = "2018"
 
 [dependencies]
 clap = "2.33.3"
-exe = "0.4.6"
+exe = "=0.4.6"
 liboxide = { path = "liboxide/" }
