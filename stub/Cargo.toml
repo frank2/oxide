@@ -1,14 +1,12 @@
-cargo-features = ["named-profiles", "strip"]
-
 [package]
 name = "stub"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["purple"]
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-exe = "=0.4.6"
+exe = "0.5.1"
 liboxide = { path = "../liboxide" }
 winapi = { version = "0.3.9", features = ["errhandlingapi", "libloaderapi", "memoryapi", "impl-default"] }
 

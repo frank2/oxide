@@ -1,11 +1,11 @@
 [package]
 name = "liboxide"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["purple"]
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-exe = "=0.4.6"
 compression = "0.1.5"
+pkbuffer = "0.4.0"
