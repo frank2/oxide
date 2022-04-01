@@ -1,7 +1,8 @@
 # OXiDE
 
 OXiDE is a PoC Rust packer. It doesn't do much other than compress the target binary, but if you read the code,
-you'll find that extending it to do more (e.g., obfuscation, anti-reversing) is very possible!
+you'll find that extending it to do more (e.g., obfuscation, anti-reversing) is very possible! For updates to the
+package, you can read the changelog [here](https://github.com/frank2/oxide/blob/main/CHANGELOG.md).
 
 ## Building
 
