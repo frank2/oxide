@@ -2,7 +2,7 @@
 
 ## 0.2.0
 ### Features
-* updated code to modern version of [exe-rs](https://crates.io/crates/exe) (0.5.1) and [pkbuffer](https://crates.io/crates/pkbuffer).
+* updated code to modern version of [exe-rs](https://crates.io/crates/exe) (0.5.1) and [pkbuffer](https://crates.io/crates/pkbuffer) (0.4.0).
 * added ability to output to a specific file when packing
 * added status updates when packing binaries
 ### Bugfixes
